@@ -1,0 +1,54 @@
+LEADER:
+
+a. JAWAD LODHI (61845)
+
+MEMBERS/PARTNERS:
+
+b. SAAD ALI SIDDIQUI (61925)
+c. ABDUL RAHIM (62183)
+
+2. A short description of what you did?
+
+ANSWER:
+
+We have done a Python code (juypter lab) and did Split Training Data for Cross-validation for both 'test' and 'train' files which were given
+first we imported libraries on python then started coding by uploading test.csv and train.csv file then we scatter file by using matplotlib library
+then initialize values in 'X' and 'Y' then checked its lenght, we also used 'from sklearn.linear_model import LinearRegression' library to cross validate
+dataset properly and in the last just check our score.
+
+3. List what insights you gained from this assignment?
+
+ANSWER:
+
+If we have huge amount of dataset we can split that data into some ratio i.e 80%, 20% or 70%, 10%, 10%
+and can find an accurate result after shuffling these type of cross validation use in different companies or industries
+which have some huge amount of datasets.
+
+The python code you used to train, test and predict the digits?
+
+CODE:
+
+//import pandas as pd
+//df = pd.read_csv("test.csv")
+//df.head()
+//import matplotlib.pyplot as plt
+//%matplotlib inline
+//plt.scatter(df['pixel0'],df['pixel783'])
+//X = df[['pixel0']]
+//Y = df['pixel783']	 
+//Y
+//from sklearn.model_selection import train_test_split
+//X_train, X_test, Y_train, Y_test = train_test_split(X,Y,test_size =0.2)
+//len (X_train)
+//len (X_test)
+//from sklearn.linear_model import LinearRegression
+//clf = LinearRegression()
+//clf.fit(X_train,Y_train)	
+//clf.predict(X_test)
+//Y_test
+//clf.score(X_train,Y_train)
+
+4. Each member should commit his/her own work, I’ll be checking the contribution %
+
+50% was my contribution (Jawad Lodhi 61845) as i have made GITHUB, KAGGLE accounts and made reposritries also did some code
+on the other hand Saad Ali Siddiqui and Abdul Rahim completed the code and contributed 25% respectively.
